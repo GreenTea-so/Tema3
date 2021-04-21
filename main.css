@@ -1,0 +1,311 @@
+input {
+    background-color: white;
+}
+
+body {
+    margin-inline: 460px;
+}
+
+div {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.logo {
+    border: 1px solid rgb(155, 81, 224);
+}
+
+div.flex_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#input_logo {
+    margin: 0px;
+    border: none;
+    
+    height: 33px;
+    padding: 0px;
+}
+
+#button_header{
+    background-color:rgb(155, 81, 224);;
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+    width: 40px;
+    height: 38px;
+    border: none;
+    
+}
+
+#logo_block {
+    position: absolute;
+    border: 3px rgba(231, 173, 13, 0.658);
+    border-style: solid;
+    width: 39px;
+    height: 43px;
+    
+}
+
+#logo_text {
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 8px;
+    background: white;
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+}
+
+
+input.input_header {
+    margin: 0px;
+    font-size: 16px;
+    width: 110px;
+    height: 50px;
+    border: none;
+    padding-inline: 10px;
+    font-weight: 600;
+}
+
+input.input_header:hover {
+    background-color: rgba(231, 173, 13, 0.658);
+    color: white;
+}
+
+
+input {
+    outline: none;
+
+}
+
+.flex_button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+
+h1.one_content {
+    color: rgb(255, 199, 64);
+    font-size: 72px;
+    width: 800px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: Calibri;
+    font-weight: 400;
+}
+
+p.one_content {
+    width: 460px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+div.one_content {
+    display: block;
+    
+    border: 3px solid white;
+    background-image: url(image/koz.jpg);
+}
+
+input.one_content {
+    padding-top: 0px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(109, 61, 153);
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 40px;
+    width: 130px;
+}
+
+
+img.two_content {
+    height: 150px;
+    width: 150px;
+    display: block;
+    border: 2px solid rgba(231, 173, 13, 0.658);
+    padding: 2px;
+    float:left;
+    margin-right: 0px;
+}
+
+.dlin {
+    display: inline-block;
+    border: 3px solid rgb(155, 81, 224);
+    background-color: rgb(155, 81, 224);
+    width: 280px;
+    height: 10px;
+    padding: 0px;
+}
+
+.dlin_free {
+    display: inline-block;
+    border: 3px solid rgb(155, 81, 224);
+    background-color: rgb(155, 81, 224);
+    width: 200px;
+    height: 10px;
+    padding: 0px;
+}
+
+.dlin_free_2 {
+    display: inline-block;
+    border: 3px solid rgb(155, 81, 224);
+    background-color: rgb(155, 81, 224);
+    width: 150px;
+    height: 10px;
+    padding: 0px;
+}
+
+.dlin_client{
+    display: inline-block;
+    border: 3px solid rgb(155, 81, 224);
+    background-color: rgb(155, 81, 224);
+    width: 1000px;
+    height: 10px;
+    padding: 0px;
+}
+
+.kvad {
+    display: inline-block;
+    border: 3px solid rgb(155, 81, 224);
+    background-color: rgb(155, 81, 224);
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+}
+
+h3.two_content {
+    margin-top: 0px;
+    display: inline-block;
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.two_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+p.two_content {
+    font-size: 14px;
+    margin-left: 170px;
+    margin-top: 0px;
+    text-align: justify; 
+}
+
+a.two_content {
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.item {
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+#steve {
+    font-weight: 550;
+}
+
+a.free_content {
+    text-decoration: underline;
+    margin-top: 50px;
+    
+}
+
+p.free_content {
+    text-align: justify;
+    margin-top: 0px;
+   
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+#test {
+    display: block;
+    
+}
+
+img.free_content {
+    display: block;
+    margin-bottom: 123px;
+    border: 1px solid rgb(193, 193, 197);
+    height: 40px;
+    
+}
+
+.div_free {
+    display: block;
+    border: 1px solid rgb(193, 193, 197);
+    height: 50px;
+    width: 300px;
+}
+
+div.free_content {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+div.free_content_1 {
+    
+    
+    width: 50px;
+    height: 40px;
+}
+
+div.free_content_2 {
+    
+    
+    width: 250px;
+    height: 50px;
+}
+
+
+div.clients {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+h4.clients {
+    margin: 0px;
+    margin-inline: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+div.img_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-inline: 60px;
+}
+
+img.img_flex {
+    height: 100px;
+    
+}
+
+#yellow {
+    border: 3px solid rgb(255, 199, 64);
+    background-color: rgb(255, 199, 64);
+} 
