@@ -3,7 +3,8 @@ input {
 }
 
 body {
-    margin-inline: 460px;
+    margin: 0 auto;
+    width: 962px;
 }
 
 div {
@@ -12,38 +13,45 @@ div {
     margin: 0px;
 }
 
-div.logo {
+
+
+.header_nav {
     border: 1px solid rgb(155, 81, 224);
+    width: 201px;
+    height: 33px;;
 }
 
-div.flex_header {
+.header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
-#input_logo {
+.header_nav_input {
     margin: 0px;
     border: none;
-    
-    height: 33px;
+    width: 155px;
+    height: 31px;
     padding: 0px;
 }
 
-#button_header{
+.header_nav_button{
     background-color:rgb(155, 81, 224);;
     margin: 0px;
     color: white;
     font-size: 16px;
-    width: 40px;
-    height: 38px;
+    width: 42px;
+    height: 33px;
     border: none;
     
 }
 
-#logo_block {
+.header_logo_block {
     position: absolute;
     border: 3px rgba(231, 173, 13, 0.658);
     border-style: solid;
@@ -52,7 +60,7 @@ div.flex_header {
     
 }
 
-#logo_text {
+.header_logo_text {
     margin-left: 20px;
     font-size: 26px;
     font-weight: 900;
@@ -64,77 +72,101 @@ div.flex_header {
 }
 
 
-input.input_header {
+.nav_button {
     margin: 0px;
     font-size: 16px;
-    width: 110px;
-    height: 50px;
+    width: 120px;
+    height: 47px;
     border: none;
     padding-inline: 10px;
     font-weight: 600;
+    background-color: white;
 }
 
-input.input_header:hover {
+.nav_button:hover {
     background-color: rgba(231, 173, 13, 0.658);
     color: white;
 }
 
 
-input {
+input, button {
     outline: none;
 
 }
 
-.flex_button {
+
+.nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
 }
 
-
-
-h1.one_content {
-    color: rgb(255, 199, 64);
-    font-size: 72px;
-    width: 800px;
-    margin-left: 40px;
-    margin-bottom: 5px;
-    margin-top: 15px;
-    font-family: Calibri;
-    font-weight: 400;
+.importent_image_text {
+    height: 133px;
+    width: 451px;
+    
+    
 }
 
-p.one_content {
+.one_content_text_h {
+    color: #FFC740;
+   
+    font-size: 60px;
+    width: 509px;
+    height: 160px;
+    
+    margin-bottom: 6px;
+    margin-top: 15px;
+    margin-right: 411px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 80px;
+}
+
+.one_content_text_p {
     width: 460px;
     color: white;
-    margin-left: 40px;
+    margin-top: 0px;
     margin-bottom: 0px;
-}
-
-div.one_content {
-    display: block;
     
-    border: 3px solid white;
-    background-image: url(image/koz.jpg);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
 }
 
-input.one_content {
+.one_content {
+    display: block;
+    width: 962px;
+    height: 332px;
+    background-color: black;
+    width: 100%;
+    
+}
+
+.one_content_text_input {
     padding-top: 0px;
-    margin-left: 40px;
-    font-size: 18px;
-    font-weight: 900;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0px;
     color: white;
-    background-color: rgb(109, 61, 153);
+    background: #6D3D99;
     border: none;
     margin-bottom: 30px;
-    margin-top: 10px;
-    height: 40px;
-    width: 130px;
+    margin-top: 8px;
+    height: 34px;
+    width: 125px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
 }
 
 
-img.two_content {
+.two_content_img {
     height: 150px;
     width: 150px;
     display: block;
@@ -144,39 +176,39 @@ img.two_content {
     margin-right: 0px;
 }
 
-.dlin {
-    display: inline-block;
+.two_content_header {
+    
     border: 3px solid rgb(155, 81, 224);
     background-color: rgb(155, 81, 224);
-    width: 280px;
-    height: 10px;
+    width: 100%;
+    height: 16px;
     padding: 0px;
 }
 
 .dlin_free {
-    display: inline-block;
     border: 3px solid rgb(155, 81, 224);
     background-color: rgb(155, 81, 224);
     width: 200px;
-    height: 10px;
+    height: 16px;
     padding: 0px;
+    margin-left: 0px;
 }
 
 .dlin_free_2 {
-    display: inline-block;
     border: 3px solid rgb(155, 81, 224);
     background-color: rgb(155, 81, 224);
-    width: 150px;
-    height: 10px;
+    width: 100%;
+    height: 16px;
     padding: 0px;
+    margin-left: 0px;
 }
 
 .dlin_client{
     display: inline-block;
     border: 3px solid rgb(155, 81, 224);
     background-color: rgb(155, 81, 224);
-    width: 1000px;
-    height: 10px;
+    width: 100%;
+    height: 16px;
     padding: 0px;
 }
 
@@ -184,34 +216,47 @@ img.two_content {
     display: inline-block;
     border: 3px solid rgb(155, 81, 224);
     background-color: rgb(155, 81, 224);
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 16px;
     padding: 0px;
 }
 
-h3.two_content {
-    margin-top: 0px;
-    display: inline-block;
+.two_content_h {
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 0px;
+    width: 250px;
     color: black;
-    font-weight: 900;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
 }
 
-div.two_content {
+.two_content {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    
 }
 
-p.two_content {
-    font-size: 14px;
+.two_content_p {
     margin-left: 170px;
     margin-top: 0px;
-    text-align: justify; 
+    margin-bottom: 37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    width: 300px;
+    height: 105px;
 }
 
-a.two_content {
+.two_content_a {
+    
     margin-left: 15px;
     text-decoration: underline;
 }
@@ -219,10 +264,16 @@ a.two_content {
 .item {
     margin-left: 5px;
     padding-right: 10px;
+    height: 200px;
 }
 
 #steve {
     font-weight: 550;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 a.free_content {
@@ -240,7 +291,7 @@ p.free_content {
 }
 
 #test {
-    display: block;
+    display: flex;
     
 }
 
@@ -290,7 +341,8 @@ h4.clients {
     margin-inline: 5px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    width: 60px;
+    height: 17px;
 }
 
 div.img_flex {
@@ -308,4 +360,109 @@ img.img_flex {
 #yellow {
     border: 3px solid rgb(255, 199, 64);
     background-color: rgb(255, 199, 64);
+    
 } 
+
+.services_header {
+    display: flex;
+    width: 300px;
+}
+
+.four_content {
+    width: 300px;
+    margin: 0px;
+}
+
+.services_block_header {
+    height: 16px;
+    width: 100%;
+    border: 3px solid rgb(255, 199, 64);
+    background-color: rgb(255, 199, 64);
+}
+
+.services_header_text {
+    width: 65px;
+    height: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 4px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.resent_posts_header {
+    display: flex;
+    
+}
+
+.resent_posts_header_text {
+    width: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.one_content_image {
+    position: absolute;
+    opacity: 0.6;
+    background-color: black;
+    
+       
+    
+}
+
+.one_content_text {
+    position: absolute;
+    margin-left: 44px;
+}
+
+
+@media (max-width: 990px){
+    body {
+        width: 540px;
+        margin: 0 auto;
+        
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .one_content_image {
+        width: 540px;
+        height: 330px;
+    }
+
+    div.two_content {
+        display: block;
+        
+    }
+
+    div.img_flex {
+        display: block;
+    }
+
+    div.four_content {
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .clients {
+        width: 540px;
+    }
+}
+
+
+
+@media (max-width: 550px){
+    body {
+        width: 400px;
+    }
+}
